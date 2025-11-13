@@ -23,7 +23,7 @@ public class TicTacToeTest {
         game.set(1, 1); 
         game.set(0, 1); 
         game.set(0, 2); 
-        game.set(2, 1);
+        game.set(2, 0);
         game.set(2, 2); 
         assertTrue(game.isGameOver());
         assertEquals("O 勝利", game.getResult());
