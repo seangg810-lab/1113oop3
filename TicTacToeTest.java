@@ -1,4 +1,3 @@
-
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
@@ -19,12 +18,12 @@ public class TicTacToeTest {
     @Test
     public void testOWins() {
         TicTacToe game = new TicTacToe();
-        game.set(0, 0); 
+        game.set(0, 0);
         game.set(1, 1); 
         game.set(0, 1); 
         game.set(0, 2); 
-        game.set(2, 0);
-        game.set(2, 2); 
+        game.set(2, 0); 
+        game.set(2, 2);
         assertTrue(game.isGameOver());
         assertEquals("O 勝利", game.getResult());
     }
