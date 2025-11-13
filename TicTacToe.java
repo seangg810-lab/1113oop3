@@ -70,9 +70,10 @@ public class TicTacToe {
         boolean full = true;
         for (int i = 0; i < 3; i++)
             for (int j = 0; j < 3; j++)
-                if (board[i][j] == ' ')
+                if (board[i][j] == ' '){
                     full = false;
                     break;
+                }
 
         if (full) {
             result = "平手";
