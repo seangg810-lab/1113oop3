@@ -72,6 +72,7 @@ public class TicTacToe {
             for (int j = 0; j < 3; j++)
                 if (board[i][j] == ' ')
                     full = false;
+                    break;
 
         if (full) {
             result = "平手";
